@@ -1,8 +1,9 @@
 #gameArea{
   background-color: rgb(71, 3, 134);
   width: 1500px ;/*largura*/
-  height: 200px ;/*altura*/
+  height: 700px ;/*altura*/
   border: 5px solid black;
+  position:absolute;
 }
 
 #dino{
@@ -10,12 +11,16 @@
   height: 150px;
   position: absolute;
   bottom: 0;
+  left: 50;
 }
 
 #obstaculo{
   background-color: rgba(251, 51, 51, 0.916);
   width: 50px;
   height: 50px;
+  position:absolute;
+  bottom: 0;
+  right: 0;
 }
 
 @keyframes jump{
