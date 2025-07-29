@@ -1,16 +1,4 @@
 
-        if(
-            dinoRect.right > obstaculoReact.left &&
-            dinoRect.left < obstaculoReact.right &&
-            dinoRect.bottom > obstaculoReact.top &&
-            dinoRect.top < obstaculoReact.bottom
-        ){
-            alert("Game Over")
-            clearInterval(gameInterval);
-            clearInterval(speedInterval);
-        }
-}
-
 function increaseSpeed() {
     speed += acceleration;
 }
