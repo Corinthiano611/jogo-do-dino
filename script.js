@@ -1,6 +1,4 @@
 
-function increaseSpeed() {
-    speed += acceleration;
 }
 const speedInterval = setInterval(increaseSpeed,30000);
 const gameInterval = setInterval(moveObstaculo,interval);
@@ -59,3 +57,4 @@ function increaseSpeed() {
 const speedInterval = setInterval(increaseSpeed,30000);
 const gameInterval = setInterval(moveObstaculo,interval);
     
+
