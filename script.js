@@ -58,3 +58,4 @@ const speedInterval = setInterval(increaseSpeed,30000);
 const gameInterval = setInterval(moveObstaculo,interval);
     
 
+
